@@ -1,0 +1,26 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #2d4033;
+    --secondary-color: #d9b382;
+    --tertiary-color: #f5f2ed;
+
+    --text-sm: 1rem;
+    --text-2sm: 1.5rem;
+    --text-m: 2rem;
+    --text-2m: 2.5rem;
+    --text-l: 3rem;
+
+    --space-1: 1rem;
+    --space-2: 1.5rem;
+    --space-3: 2rem;
+    --space-4: 2.5rem;
+}
+
+body {
+    font-family: sans-serif;
+}
