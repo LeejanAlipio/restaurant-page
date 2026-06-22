@@ -1,4 +1,7 @@
 footer {
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
     text-align: center;
     font-size: var(--text-sm);
+    padding: var(--space-2);
 }
