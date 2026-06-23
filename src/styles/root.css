@@ -14,11 +14,14 @@
     --text-m: 2rem;
     --text-2m: 2.5rem;
     --text-l: 3rem;
+    --text-xl: 4rem;
 
     --space-1: 1rem;
     --space-2: 1.5rem;
     --space-3: 2rem;
     --space-4: 2.5rem;
+    --space-5: 3rem;
+    --space-10: 10rem;
 }
 
 body {
