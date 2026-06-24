@@ -1,30 +1,31 @@
 #content {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/cafe.jpg") no-repeat center / cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/garden.png") no-repeat center / cover;
     width: 100%;
     height: 100%;
     display: flex;
+    justify-content: flex-start;
     align-items: center;
     color: var(--tertiary-color);
     padding: var(--space-10);
 }
 
-.hero-section {
+.hero-section-home {
     width: min(40%, 1200px);
 }
 
-.hero-year {
+.hero-year-home {
     letter-spacing: 1px;
     color: var(--secondary-color);
     margin-bottom: var(--space-1);
 }
 
-.hero-title {
+.hero-title-home {
     font-size: var(--text-xl);
     line-height: 1;
     margin-bottom: var(--space-2);
 }
 
-.hero-description {
+.hero-description-home {
     margin-bottom: var(--space-2);
 }
 

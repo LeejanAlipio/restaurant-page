@@ -1,0 +1,41 @@
+#content {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/garden.png") no-repeat center / cover;
+    width: 100%;
+    min-height: calc(100dvh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--tertiary-color);
+    padding: var(--space-3);
+}
+
+.hero-section-contact {
+    width: min(80%, 800px);
+    background-color: rgba(45, 64, 51, 0.9);
+    padding: var(--space-3);
+    border-radius: 10px;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: var(--text-2m);
+    margin-bottom: var(--space-3);
+    color: var(--secondary-color);
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-3);
+}
+
+.contact-item h2 {
+    font-size: var(--text-m);
+    color: var(--secondary-color);
+    margin-bottom: var(--space-1);
+}
+
+.contact-item p {
+    font-size: var(--text-sm);
+    line-height: 1.6;
+}
