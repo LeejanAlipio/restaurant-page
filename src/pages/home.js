@@ -2,7 +2,6 @@ import "../styles/home.css";
 
 export default function createHomePage() {
     const container = document.querySelector('#content');
-    container.classList.add('content');
 
     const heroSection = document.createElement('div');
     heroSection.classList.add('hero-section-home');

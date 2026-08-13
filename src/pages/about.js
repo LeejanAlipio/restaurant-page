@@ -2,7 +2,6 @@ import "../styles/about.css";
 
 export default function createAboutPage() {
     const container = document.querySelector('#content');
-    container.classList.add('content');
 
     const heroSection = document.createElement('div');
     heroSection.classList.add('hero-section-about');

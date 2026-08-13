@@ -2,7 +2,6 @@ import "../styles/contact.css";
 
 export default function createContactPage() {
     const container = document.querySelector('#content');
-    container.classList.add('content');
 
     const contactSection = document.createElement('div');
     contactSection.classList.add('hero-section-contact');

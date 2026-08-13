@@ -2,7 +2,6 @@ import "../styles/menu.css";
 
 export default function createMenuPage() {
     const container = document.querySelector('#content');
-    container.classList.add('content');
 
     const menuSection = document.createElement('div');
     menuSection.classList.add('hero-section-menu');
