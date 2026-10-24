@@ -1,9 +1,10 @@
 # Restaurant Page
 
 Odin Project that allowed me to practice Webpack and DOM manipulation.
-
-## Live Preview
 ![Restaurant Page Preview](image.png)
+
+## Live Page
+Visit the page here: [Restaurant Page](https://restaurant-page-ten-pink.vercel.app/)
 
 ## Features
 - Multi-page restaurant website with Home, About, Menu, and Contact pages
@@ -11,7 +12,7 @@ Odin Project that allowed me to practice Webpack and DOM manipulation.
 - Responsive design with modern CSS
 - Bundled with Webpack
 
-## Setting Up
+## Getting Started
 
 ### Clone the Repo
 ```bash
@@ -32,29 +33,3 @@ npm run dev
 # Production build
 npm run build
 ```
-
-## Project Structure
-```
-src/
-├── index.js           # Entry point, handles navigation
-├── index.html         # Main HTML template
-├── pages/
-│   ├── home.js        # Home page component
-│   ├── about.js       # About page component
-│   ├── menu.js        # Menu page component
-│   └── contact.js     # Contact page component
-└── styles/
-    ├── root.css       # Global styles and CSS variables
-    ├── header.css     # Header navigation styles
-    ├── footer.css     # Footer styles
-    ├── home.css       # Home page styles
-    ├── about.css      # About page styles
-    ├── menu.css       # Menu page styles
-    └── contact.css    # Contact page styles
-```
-
-## Pages
-- **Home** - Hero section with restaurant introduction and navigation buttons
-- **About** - Restaurant story and mission
-- **Menu** - Seasonal dishes with prices
-- **Contact** - Location, hours, and contact information
